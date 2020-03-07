@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="HTTP 403 錯誤頁面" />
+    <meta property="og:description" content="客戶端錯誤狀態碼表示伺服器理解該請求但拒絕核准。該狀態碼與 HTTP 401 類似，但重新身分驗證不能提供幫助。存取被永久性禁止，且與應用程式邏輯有關，如資源的訪問權限不足。" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="css/403-error-page.css">
+    <title>HTTP 403 錯誤頁面</title>
+</head>
+<body>
+    <h1>403</h1>
+    <div>
+        <p>> <span>HTTP 狀態碼</span>："<i>403 Forbidden</i>"</p>
+        <p>> <span>描述</span>：「<i>用戶端並無訪問權限，例如未被授權，所以伺服器拒絕給予應有的回應。不同於 401，伺服端知道用戶端的身份。</i>」</p>
+        <p>> <span>錯誤原因</span>：[<b>禁止執行存取，禁止讀取存取，禁止寫入存取，需要 SSL，需要 SSL 128，IP 位址遭拒，需要用戶端憑證，網站存取遭拒，使用者過多，設定無效，密碼變更，對應程式拒絕存取，用戶端憑證已撤銷，目錄清單遭拒，超過用戶端存取授權數量，用戶端憑證不受信任或無效，用戶端憑證已經過期或尚未生效，無法在目前的應用程式集區中執行要求的 URL，無法在這個應用程式集區中執行用戶端的 CGI，Passport 登入失敗。</b>...]</p>
+        <p>> <span>祝你一天順利！🙌</span></p>
+    </div>
+    <script src="js/403-error-page.js"></script>
+</body>
+</html>
